@@ -1,0 +1,151 @@
+Zulip server [https://leanprover.zulipchat.com]: 
+How many calendar months, including the current month? [3]: 5
+Show top how many topics? [20]: 40
+Counting activity from 18266 known human accounts.
+
+Reading public channel messages: 2026-06-01 00:00:00+00:00 through 2026-10-26 13:26:42.386822+00:00 (UTC, inclusive; 5 calendar months including the current month) ...
+Cache 2026-10: fetched 3 messages
+Cache 2026-09: reused 15,670 messages
+Cache 2026-08: reused 13,476 messages
+Cache 2026-07: reused 10,705 messages
+Cache 2026-06: reused 9,458 messages
+Processed 32,341 in-range human messages
+
+Generated: 2026-10-26 13:26:44.663028+00:00 (UTC)
+Timespan checked: 2026-06-01 00:00:00+00:00 through 2026-10-26 13:26:42.386822+00:00 (UTC, inclusive; 5 calendar months including the current month)
+
+Top 40 topics of 3433; score = human messages + human reactions
+
+ 1. [ 1990 human interactions] #Physlib > Project: Formalising the Yukawa sector of the Standard Model
+    1718 human messages | 272 human reactions | 9 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/479953-Physlib/topic/Project%3A%20Formalising%20the%20Yukawa%20sector%20of%20the%20Standard%20Model/near/634941474
+ 2. [  988 human interactions] #lean4 > Counterexample to the Lean Conjecture (Soundness Bug)
+    264 human messages | 724 human reactions | 132 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/270676-lean4/topic/Counterexample%20to%20the%20Lean%20Conjecture%20%28Soundness%20Bug%29/near/620332700
+ 3. [  903 human interactions] #FLT > Anthropic formalization
+    195 human messages | 708 human reactions | 179 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/416277-FLT/topic/Anthropic%20formalization/near/623787519
+ 4. [  632 human interactions] #Geographic locality > New York City, USA
+    356 human messages | 276 human reactions | 61 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/224796-Geographic%20locality/topic/New%20York%20City%2C%20USA/near/634802878
+ 5. [  595 human interactions] #general > Proving an open conjecture with AI + Lean
+    169 human messages | 426 human reactions | 93 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Proving%20an%20open%20conjecture%20with%20AI%20%2B%20Lean/near/627639697
+ 6. [  529 human interactions] #general > Lean in the wild: Navier-Stokes proved
+    80 human messages | 449 human reactions | 162 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Lean%20in%20the%20wild%3A%20Navier-Stokes%20proved/near/629979249
+ 7. [  527 human interactions] #Model comparisons for Lean > LeanEval
+    275 human messages | 252 human reactions | 67 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/583341-Model%20comparisons%20for%20Lean/topic/LeanEval/near/634215783
+ 8. [  477 human interactions] #rss > Significant commits to mathlib4
+    160 human messages | 317 human reactions | 39 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/116290-rss/topic/Significant%20commits%20to%20mathlib4/near/634641952
+ 9. [  442 human interactions] #general > Lean in the wild
+    131 human messages | 311 human reactions | 123 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Lean%20in%20the%20wild/near/634963511
+10. [  398 human interactions] #mathlib4 > Technical Debt Counters
+    214 human messages | 184 human reactions | 37 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/Technical%20Debt%20Counters/near/634873514
+11. [  388 human interactions] #AI authored projects > OpenAI releases solutions to hundreds of problems
+    125 human messages | 263 human reactions | 97 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/583339-AI%20authored%20projects/topic/OpenAI%20releases%20solutions%20to%20hundreds%20of%20problems/near/632678885
+12. [  377 human interactions] #general > Lean Kernel Arena
+    247 human messages | 130 human reactions | 44 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Lean%20Kernel%20Arena/near/634507213
+13. [  342 human interactions] #rss > Recent Commits to mathlib4:master
+    5 human messages | 337 human reactions | 37 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/116290-rss/topic/Recent%20Commits%20to%20mathlib4%3Amaster/near/634943197
+14. [  336 human interactions] #general > Discussion about OSS licenses for Lean projects
+    100 human messages | 236 human reactions | 63 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion%20about%20OSS%20licenses%20for%20Lean%20projects/near/603717361
+15. [  314 human interactions] #general > Discussion: The Meta Café
+    138 human messages | 176 human reactions | 63 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion%3A%20The%20Meta%20Caf%C3%A9/near/634470436
+16. [  294 human interactions] #general > OpenAI Astra: 10 conjectures solved + lean verified
+    99 human messages | 195 human reactions | 88 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/OpenAI%20Astra%3A%2010%20conjectures%20solved%20%2B%20lean%20verified/near/624199677
+17. [  279 human interactions] #Tau Ceti > Getting started: roadmaps
+    173 human messages | 106 human reactions | 39 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/610393-Tau%20Ceti/topic/Getting%20started%3A%20roadmaps/near/634968603
+18. [  256 human interactions] #maths > "Most" of math can be formalized in axiom-free Lean
+    227 human messages | 29 human reactions | 21 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/116395-maths/topic/%22Most%22%20of%20math%20can%20be%20formalized%20in%20axiom-free%20Lean/near/631158677
+19. [  247 human interactions] #mathlib4 > "there exists an effectively computable constant"
+    182 human messages | 65 human reactions | 35 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/%22there%20exists%20an%20effectively%20computable%20constant%22/near/613627488
+20. [  246 human interactions] #general > Discussion: Association for Human Mathematics
+    52 human messages | 194 human reactions | 81 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Discussion%3A%20Association%20for%20Human%20Mathematics/near/624056585
+21. [  230 human interactions] #Autoformalization > Jacobian challenge
+    107 human messages | 123 human reactions | 55 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Jacobian%20challenge/near/628322703
+22. [  225 human interactions] #general > Declaration: A Severe Misalignment of AI in Mathematics
+    32 human messages | 193 human reactions | 94 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Declaration%3A%20A%20Severe%20Misalignment%20of%20AI%20in%20Mathematics/near/624879063
+23. [  213 human interactions] #mathlib4 > Roadmaps and the growth of mathlib
+    56 human messages | 157 human reactions | 53 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/Roadmaps%20and%20the%20growth%20of%20mathlib/near/633987166
+24. [  198 human interactions] #Quantum information > Quantum Computing: Organizing the community
+    132 human messages | 66 human reactions | 20 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/508986-Quantum%20information/topic/Quantum%20Computing%3A%20Organizing%20the%20community/near/630183990
+25. [  195 human interactions] #Equational > Conjunctions of rules with three or fewer operations
+    162 human messages | 33 human reactions | 12 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/458659-Equational/topic/Conjunctions%20of%20rules%20with%20three%20or%20fewer%20operations/near/631470982
+26. [  183 human interactions] #lean4lean > State of the Proof
+    88 human messages | 95 human reactions | 55 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/621470-lean4lean/topic/State%20of%20the%20Proof/near/616781501
+27. [  182 human interactions] #mathlib4 > Profinite integers
+    160 human messages | 22 human reactions | 8 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/Profinite%20integers/near/633308294
+28. [  181 human interactions] #Autoformalization > Prove2Me
+    107 human messages | 74 human reactions | 40 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/583336-Autoformalization/topic/Prove2Me/near/629764265
+29. [  167 human interactions] #general > con-leche, a lean checker with a proof of consistency
+    40 human messages | 127 human reactions | 65 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-leche%2C%20a%20lean%20checker%20with%20a%20proof%20of%20consistency/near/634779883
+30. [  165 human interactions] #General announcements > Mathlib Initiative
+    5 human messages | 160 human reactions | 97 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113486-General%20announcements/topic/Mathlib%20Initiative/near/628620062
+31. [  158 human interactions] #Geographic locality > Madrid, Spain
+    34 human messages | 124 human reactions | 34 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/224796-Geographic%20locality/topic/Madrid%2C%20Spain/near/634054717
+32. [  156 human interactions] #rss > Recent Commits to lean4:master
+    2 human messages | 154 human reactions | 28 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/116290-rss/topic/Recent%20Commits%20to%20lean4%3Amaster/near/634906686
+33. [  155 human interactions] #Event announcements > Save the date: Mathlib Anniversary Event
+    1 human messages | 154 human reactions | 86 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/579629-Event%20announcements/topic/Save%20the%20date%3A%20Mathlib%20Anniversary%20Event/near/617425449
+34. [  155 human interactions] #mathlib4 > Naming convention
+    97 human messages | 58 human reactions | 37 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/Naming%20convention/near/634558872
+35. [  145 human interactions] #lean4lean > Type theory model vs. Reality
+    85 human messages | 60 human reactions | 28 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/621470-lean4lean/topic/Type%20theory%20model%20vs.%20Reality/near/621830202
+36. [  145 human interactions] #Physlib > Review backlog
+    128 human messages | 17 human reactions | 5 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/479953-Physlib/topic/Review%20backlog/near/634995981
+37. [  138 human interactions] #mathlib4 > Fix TFAE numbering
+    65 human messages | 73 human reactions | 34 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/287929-mathlib4/topic/Fix%20TFAE%20numbering/near/616017169
+38. [  136 human interactions] #general > backward.isDefEq.respectTransparency
+    87 human messages | 49 human reactions | 25 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/backward.isDefEq.respectTransparency/near/626735087
+39. [  130 human interactions] #general > Mathlib vs autoformalized projects
+    18 human messages | 112 human reactions | 46 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Mathlib%20vs%20autoformalized%20projects/near/629545975
+40. [  128 human interactions] #general > Independent verification of OpenAI NavierStokesAndEuler
+    65 human messages | 63 human reactions | 43 human participants (authors or reactors)
+    https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/Independent%20verification%20of%20OpenAI%20NavierStokesAndEuler/near/627438009
+
+Unknown bot status: 1 encountered accounts; 245 messages; 0 reactions; 216 topics.
+These messages and reactions are excluded from the human ranking.
+If ALL unknown activity were human: scores would increase in 216 topics (12 in the current top 40).
+    Top 40 membership changes: no (0 enter, 0 leave).
+    Ordered top 40 list changes: yes.
+This comparison assumes all unknown accounts are human; their actual status remains unknown.
+
+Note: reactions are from the cached snapshots of messages posted during the chosen period;
+the API does not indicate when each reaction was added. Only accessible public history is counted.
+Use --refresh-cache to update cached reactions, edits and deletions.
+Human reactions count even on bot messages. Bot-authored activity and unknown accounts are excluded.
+

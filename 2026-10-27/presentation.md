@@ -45,7 +45,7 @@ date:
     - Conference on Computer Aided Verification (CAV)
     - Conference on Automated Reasoning (IJCAR)
     - Symposium on Logic in Computer Science (LICS)
-    - Formal Structures for Computation and Deduction (FSCD)
+    - Computer Security Foundations Symposium (CSF)
     - competitions for SAT, SMT and QBF solvers
 - FLoC is once every 4 yers! Next one in 2030
 
@@ -122,7 +122,7 @@ Source: https://leanprover.zulipchat.com/stats
 Kevin Buzzard's FLT project continues. Their goal is to produce mathlib contributions + a human-readable modern proof
 
 
-## AI4Math funding: a Polish grant recipient
+## AI4Math funding: Polish project with Renaissaince Philantropy grant
 
 - Renaissance Philantropy is a major grant-given in the field of AI4Math
 - This year, a Polish team lead by Bartosz Naskręcki (UAM / PW) received one of the grants
@@ -132,67 +132,60 @@ Kevin Buzzard's FLT project continues. Their goal is to produce mathlib contribu
 
 # Software verification
 
-## Verus + Velvet
+## Verification of imperative programs
+- Until recently, state of the art was using Why3 or Dafny
+- Dafny's SMT solvers tend to get stuck; not a production-ready tool
+- there was a proof mode proposal for Dafny ([link](https://profs.info.uaic.ro/stefan.ciobaca/aipmda.html)) with Amazon Research funding, but it seems to not be there yet
 
-- [Signal Shot](https://www.beneficialaifoundation.org/signal-shot): ongoing verification of the Signal protocol + Rust implementation in Lean. Leo de Moura + Max Tegmark: steering co-chairs; Signal / BAIF / Lean FRO. [Leo's overview](https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/).
-- [VeriContest](https://hiprel-group.github.io/VeriContest/): LeetCode verification in Verus.
-- [Verifying the Rust Standard Library](https://model-checking.github.io/verify-rust-std/); Runtime Verification; RustConf.
-- [FMCAD 2026](https://fmcad.org/FMCAD26/program/): 15 September, Travis Hance: Verifying Rust code with Verus. 16–18 September: Program Verification and Synthesis track.
-- [CAV 2026](https://conferences.i-cav.org/2026/): part of FLoC: [Velvet](https://velvetprover.dev/): imperative-program verification in Lean 4. [CAV tool paper](https://verse-lab.org/papers/velvet-cav26.pdf); insertion-sort demo.
+- important well-established project: Aeneas (verifying Rust using Lean 4); ICFP 2022
 
-## Dafny: an interactive proof mode?
+## Verus
+- At NeurIPS 2026, VeriContest will be presented: benchmark for solving LeetCode problems in Rust **with correctness proof in Verus** (Verus is a tool from around 2024)
+- Looks good ([link](https://hiprel-group.github.io/VeriContest/about.html))
+![alt text](assets/verus.png)
 
-- [Interactive proof mode for Dafny](https://profs.info.uaic.ro/stefan.ciobaca/aipmda.html): construct proofs interactively; complement automated verification.
-- Ciobâcă, Leino, Mercaș, Timon: design + prototype, presented at [Dafny ’26](https://popl26.sigplan.org/details/dafny-2026-papers/10/The-Design-of-an-Interactive-Proof-Mode-for-Dafny) and [WPTE / FLoC, 19 July](https://program.floc26.org/2026-07-19). [Paper](https://arxiv.org/abs/2512.20486).
+## Verifying Rust standard library
+- in May 2026, NASA Formal Methods Symposium (NFM 2026) took place, and the paper "Verifying the Rust Standard Library" was published [link](https://arxiv.org/pdf/2606.17374)
+- they accept many tools as verification, including Verus
+- FMCAD 2026: a few talks about verifying real Rust; 18 September "Verifying a Memory Allocator for Rust"
 
-## Cryptography: Warsaw demo
+## Signal Shot
+- April 20, 2026 at SVIL workshop in Paris
+- verification of the whole Signal communicator app + the protocol
+- https://www.beneficialaifoundation.org/signal-shot
+- supported by Beneficial AI Foundation - hint towards financing from AI Safety direction 
+- other AI Safety grant-giver worth mentioning: Coefficient Giving [link](https://coefficientgiving.org/apply-for-funding/)
 
-- Dziembowski, Fabiański, Micciancio, Stefański:
-- [Computationally-Sound Symbolic Cryptography in Lean](https://eprint.iacr.org/2025/1700), CSF 2026. [Code](https://github.com/ravst/SymbolicCryptographyLean).
-- [Game Hopping in Lean](https://arxiv.org/abs/2608.06261), August 2026: HOPSCOTCH. [Demo / code](https://github.com/ravst/Hopscotch).
+## Velvet
+- CAV, July 2026: "Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean"
+- https://velvetprover.dev/
+![alt text](assets/velvet.png)
 
-## Blockchain: industry
+## Cryptography
+- CSF 2026 (part of FLoC): Dziembowski, Fabiański, Micciancio, Stefański, [Computationally-Sound Symbolic Cryptography in Lean](https://eprint.iacr.org/2025/1700)
+- and more works by Warsaw crypto group - but IMO it's worth dedicating a separate meeting for their works
 
-- [ArkLib](https://lean-lang.org/use-cases/arklib/): SNARKs.
-- [Nethermind](https://www.nethermind.io/formal-verification): EVM/Yul, ZK circuits, verification tooling.
 
-## EU funding: formal verification + security
+## Cybersecurity: HORIZON-ECCC call
+- there was a call that could fund some formal verification "Security testing methodologies, including formal verification approaches and AI-driven security testing methodologies;"
+- call by European Cybersecurity Centre, ECCC
+- closed on September 15, but it suggests that cybersecurity-related funding is possible
+- [link](https://cybersecurity-centre.europa.eu/funding-opportunities/calls-proposals/cybersecurity-horizon-cl3-2026-02-cs-eccc_en)
 
-- [ECCC / Horizon Europe: HORIZON-CL3-2026-02-CS-ECCC](https://cybersecurity-centre.europa.eu/funding-opportunities/calls-proposals/cybersecurity-horizon-cl3-2026-02-cs-eccc_en)
-- 01: €20M: software / hardware security; formal verification + AI-driven security testing.
-- 02: €21.2M: SecureAI: security, privacy and robustness of AI systems.
-- 03: €15M: high-assurance cryptographic implementations; formal verification tools, post-quantum migration.
+## Cybersecurity: ECCC-CYBERAI call (CPPC)
+- there is an open call, but further from formal verification (until 14 January 2027)
+- "Cybersecure tools, technologies and services relying on AI"
+- https://www.gov.pl/web/cppc/nabory-2026-z-obszaru-cyberbezpieczenstwo
 
-- Deadline: 15 September 2026: CLOSED.
+## FIRST TEAM FENG
+- until 20 November, FIRST TEAM FENG is open (FNP)
+- the call looks very broad - perhaps someone knows more about this program?
 
-- [CPPC: cybersecurity calls](https://www.gov.pl/web/cppc/nabory-2026-z-obszaru-cyberbezpieczenstwo); [FIRST TEAM FENG, 2/2026: 20 Nov](https://www.fnp.org.pl/component/fnp_programs/program/first-team-feng/nabor-2-2026).
 
 <!-- removed
 
-Public material removed from the slides; retained here for future editing.
-Keep future removals of conferences, people and projects in this comment.
-Keep an item either in the slides or here, never in both.
-Private contact / outreach information must not be retained here.
-
-Funding: European / Polish calls
-SME CALLS https://eudis.europa.eu/eudis-tracks/sme-calls_en
-FENG call: https://funduszeeuropejskie.gov.pl/aktualnosci/technologie-obronne-w-feng-kryteria-konkursowe-i-terminy-pierwszych-naborow/
-
-AI safety: understanding / checking AI-generated proofs.
-Dual-use AI: AI that programs well? Lean: hard to write proofs; easy to check them.
-
-Learning resources
-Natural Number Game: basic introduction to writing proofs in Lean.
-Mathematics in Lean: tutorial on mathematics in Lean and Mathlib.
-Theorem Proving in Lean: tutorial on Lean's type theory.
-Functional Programming in Lean: tutorial on programming in Lean.
-https://lean-lang.org/community/
-
 People / teaching / local groups
 FORM centre: https://www.linkedin.com/company/form-centre/home/
-Software Foundations in Lean.
-Cambridge Lean User Group:
-https://leanprover.zulipchat.com/#narrow/channel/224796-Geographic-locality/topic/Cambridge.2C.20UK/near/631701362
 
 Reading / next talks
 Fabrizio Montesi's blog: https://www.fabriziomontesi.com/
@@ -202,9 +195,4 @@ Swarat Chaudhuri, June 2026 / Science: https://arxiv.org/abs/2605.22763
 
 Other Lean projects
 Hex: verified computer algebra.
-Aeneas: Rust code verified in Lean.
-
-Funding: mathematical AI
-Coefficient Giving.
-
 -->

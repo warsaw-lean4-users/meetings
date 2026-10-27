@@ -34,6 +34,14 @@ date:
     - feedback for project ideas
     - creating space for people of different backgrounds to learn about verification
 
+- This talk will mostly be a recap of what was/is happening. Future talks are free to have different format
+
+## My calendar project
+- I've gathered all the events that were at least remotely interesting
+- Some focus on student stuff, including mentorships and volunteering opportunities
+- Please check out! Even small contributions are welcome :)
+- https://ruplet.com/ai4math-calendar
+
 # Recap of last months: general events
 
 ## June, July (selected)
@@ -77,14 +85,6 @@ Source: https://leanprover.zulipchat.com/stats
 
 
 # What is happening this and next month?
-
-## My calendar project
-- I've gathered all the events that were at least remotely interesting (for me)
-- AI and computer science conferences + minor verification events
-- Student stuff, including mentorships and volunteering opportunities
-- Please check out! Even small contributions are welcome :)
-- https://ruplet.com/ai4math-calendar
-
 ## October
 
 - 26–-30 Oct: [Bristol Lean week](https://bristol-lean.github.io/blue/events/)

@@ -80,13 +80,10 @@ Source: https://leanprover.zulipchat.com/stats
 
 ## My calendar project
 - I've gathered all the events that were at least remotely interesting (for me)
-- Major AI conferences
-- Major / moderate theoretical computer science conferences
-- Minor and micro Lean 4 events and opportunities
+- AI and computer science conferences + minor verification events
 - Student stuff, including mentorships and volunteering opportunities
+- Please check out! Even small contributions are welcome :)
 - https://ruplet.com/ai4math-calendar
-- Please check out! Even small contributions are welcome
-- If you're successful attending an event (e.g. as a student volunteer), please share your experience
 
 ## October
 
@@ -98,6 +95,7 @@ Source: https://leanprover.zulipchat.com/stats
 ## November
 
 - 6 Nov: [EACL ’27 Student Research Workshop](https://2027.eacl.org/calls/srw/) (student research paper / phd thesis feedback)
+- 7 Nov: Conference on Software Verification in Lean [SVIL '26 Fall](https://beneficial-ai-foundation.github.io/SVIL2026_Fall/#registration) - can join online to watch streams
 - 11 Nov: [POPL ’27 student volunteers](https://popl27.sigplan.org/track/POPL-2027-student-volunteers): registration + meals; travel / lodging excluded. [Zulip call](https://leanprover.zulipchat.com/#narrow/channel/579629-Event-announcements/topic/POPL27.3A.20Call.20for.20Student.20Volunteers/with/630961882).
 - 16 Nov: [NAACL ’27 Student Research Workshop](https://2027.naacl.org/calls/srw/)
 - 30 Nov: [AAAI ’27 scholar / volunteer applications opens](https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/)
